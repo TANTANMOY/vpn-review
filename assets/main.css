@@ -94,3 +94,13 @@ body {
     transform: translateX(-100%);
   }
 }
+
+.footer {
+  left: 0;
+  bottom: 0;
+  padding: 6px;
+  width: 100%;
+  background-color: rgba(15, 15, 15, 0.459);
+  color: white;
+  text-align: center;
+}
