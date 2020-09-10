@@ -5,7 +5,10 @@ body {
 .text_green {
   color: #0f0;
 }
-
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0);
+}
 .polygon-design1 {
   background: rgb(238, 174, 202);
   background: radial-gradient(
@@ -85,7 +88,7 @@ body {
     padding-left: 1rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: #262626;
+    background-color: #efaa38;
     transition: visibility 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
     z-index: 100;
   }
