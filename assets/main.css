@@ -62,6 +62,9 @@ body {
   .securesvg {
     width: 290px;
   }
+  .best-vpn {
+    margin-top: 50%;
+  }
 }
 
 .offcanvas-header {
