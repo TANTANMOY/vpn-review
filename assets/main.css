@@ -1,0 +1,58 @@
+body {
+  background-color: #262626;
+}
+
+.text_green {
+  color: #0f0;
+}
+
+.polygon-design1 {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  clip-path: polygon(0 0, 100% 0, 76% 71%, 0% 100%);
+  width: 70%;
+  height: 600px;
+  z-index: 10000;
+}
+
+.polygon-design2 {
+  background-color: #28a337;
+  clip-path: polygon(0 0, 100% 0, 76% 71%, 0% 100%);
+  width: 72%;
+  height: 680px;
+  z-index: -12;
+  position: absolute;
+  top: 0;
+}
+
+.polygon-design1-text {
+  color: #fff;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+@media (max-width: 576px) {
+  .polygon-design1 {
+    width: 93%;
+    height: 600px;
+  }
+
+  .polygon-design2 {
+    width: 96%;
+    height: 680px;
+  }
+  .polygon-design1-text {
+    color: #fff;
+    position: absolute;
+    top: 13%;
+    left: 1%;
+  }
+}
+
+.best-vpn {
+}
